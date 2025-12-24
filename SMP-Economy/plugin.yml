@@ -1,0 +1,76 @@
+name: SMP-Economy
+version: 2.0.0
+main: com.sunsetrq7.smpeconomy.SMP_Economy
+api-version: 1.21
+author: SunsetRQ7
+description: Advanced Economy Plugin for SMP Servers
+website: https://github.com/sunsetrq7/SMP-Economy
+
+depend: []
+softdepend: [Vault, PlaceholderAPI]
+
+commands:
+  eco:
+    description: Main economy command
+    usage: /eco
+    aliases: [economy, balance, bal]
+    permission: smpeconomy.eco
+  ecoadmin:
+    description: Economy admin command
+    usage: /ecoadmin
+    aliases: [eco.admin, economy.admin]
+    permission: smpeconomy.admin
+  bank:
+    description: Bank command
+    usage: /bank
+    aliases: [banking]
+    permission: smpeconomy.bank
+  ah:
+    description: Auction house command
+    usage: /ah
+    aliases: [auction, auctionhouse]
+    permission: smpeconomy.auction
+
+permissions:
+  smpeconomy.eco:
+    description: Use economy commands
+    default: true
+  smpeconomy.eco.balance:
+    description: Check balance
+    default: true
+  smpeconomy.eco.pay:
+    description: Send money to other players
+    default: true
+  smpeconomy.eco.top:
+    description: View top balances
+    default: true
+  smpeconomy.eco.reset:
+    description: Reset player balances (admin)
+    default: op
+  smpeconomy.bank:
+    description: Use bank commands
+    default: true
+  smpeconomy.bank.deposit:
+    description: Deposit to bank
+    default: true
+  smpeconomy.bank.withdraw:
+    description: Withdraw from bank
+    default: true
+  smpeconomy.auction:
+    description: Use auction house
+    default: true
+  smpeconomy.auction.create:
+    description: Create auctions
+    default: true
+  smpeconomy.admin:
+    description: Admin commands
+    default: op
+  smpeconomy.admin.give:
+    description: Give money (admin)
+    default: op
+  smpeconomy.admin.set:
+    description: Set balances (admin)
+    default: op
+  smpeconomy.admin.reload:
+    description: Reload config (admin)
+    default: op

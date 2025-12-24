@@ -1,0 +1,88 @@
+# SMP-Economy Persian Language File
+# Translation for Persian (Iran)
+
+# General messages
+prefix: "&e[&aSMP-Economy&e] "
+no_permission: "&cشما اجازه استفاده از این دستور را ندارید!"
+player_not_found: "&cبازیکن یافت نشد!"
+invalid_amount: "&cمقدار مشخص شده نامعتبر است!"
+success: "&aموفقیت!"
+error: "&cخطا!"
+
+# Balance messages
+balance_title: "&e&m-----&6 تراز &e&m-----"
+balance_display: "&eتراز شما: &a{balance}"
+balance_other_display: "&eتراز {player}: &a{balance}"
+balance_top_title: "&e&m-----&6 بالاترین ترازها &e&m-----"
+balance_top_entry: "&e#{rank} &a{player}: &e{balance}"
+
+# Bank messages
+bank_title: "&e&m-----&6 بانک &e&m-----"
+bank_balance_display: "&eتراز بانک: &a{balance}"
+bank_deposit_success: "&aمبلغ &e{amount} &aبا موفقیت به بانک شما واریز شد!"
+bank_withdraw_success: "&aمبلغ &e{amount} &aبا موفقیت از بانک شما برداشت شد!"
+bank_insufficient_funds: "&cموجودی کافی در بانک شما وجود ندارد!"
+bank_insufficient_money: "&cشما پول کافی برای واریز ندارید!"
+
+# Auction messages
+auction_title: "&e&m-----&6 خانه حراج &e&m-----"
+auction_create_success: "&aحراج &e{item} &aبا شروع قیمت &e{bid} &aبا موفقیت ایجاد شد!"
+auction_buy_success: "&aمورد &e{item} &aبه مبلغ &e{price} &aبا موفقیت خریداری شد!"
+auction_bid_success: "&aپیشنهاد &e{bid} &aبرای حراج با موفقیت ثبت شد!"
+auction_expired: "&cحراج شما برای &e{item} &cمنقضی شده است!"
+auction_sold: "&cحراج شما برای &e{item} &cبه مبلغ &e{price} &cفروخته شده است!"
+
+# Transfer messages
+transfer_success: "&aمبلغ &e{amount} &aبا موفقیت به &e{player} &aارسال شد!"
+transfer_received: "&aمبلغ &e{amount} &aاز &e{player} &aدریافت شد!"
+transfer_insufficient_funds: "&cشما پول کافی برای ارسال ندارید!"
+
+# Admin messages
+admin_give_success: "&aمبلغ &e{amount} &aبا موفقیت به &e{player} &aداده شد!"
+admin_set_success: "&aتراز &e{player} &aبه &e{amount} &aتنظیم شد!"
+admin_reset_success: "&aتراز &e{player} &aبازنشانی شد!"
+
+# Command usage
+command_usage_balance: "&cاستفاده: /balance [player]"
+command_usage_pay: "&cاستفاده: /pay <player> <amount>"
+command_usage_bank: "&cاستفاده: /bank <deposit/withdraw> <amount>"
+command_usage_auction: "&cاستفاده: /auction <create/buy/bid> [args]"
+
+# GUI titles
+gui_main_title: "منوی اقتصاد"
+gui_bank_title: "منوی بانک"
+gui_auction_title: "خانه حراج"
+gui_auction_create_title: "ایجاد حراج"
+gui_my_auctions_title: "حراج‌های من"
+gui_bid_history_title: "تاریخچه پیشنهادها"
+gui_transaction_history_title: "تاریخچه تراکنش‌ها"
+gui_settings_title: "تنظیمات"
+
+# GUI items
+gui_item_balance: "&eتراز شما: &a{balance}"
+gui_item_bank_balance: "&eتراز بانک: &a{balance}"
+gui_item_deposit: "&aواریز پول"
+gui_item_withdraw: "&cبرداشت پول"
+gui_item_auction_house: "&6خانه حراج"
+gui_item_create_auction: "&6ایجاد حراج"
+gui_item_my_auctions: "&eحراج‌های من"
+gui_item_transaction_history: "&bتاریخچه تراکنش‌ها"
+gui_item_settings: "&7تنظیمات"
+gui_item_back: "&cبازگشت"
+gui_item_close: "&cبستن"
+
+# Settings messages
+settings_language_changed: "&aزبان به فارسی تغییر کرد!"
+settings_notifications_enabled: "&aاعلان‌ها فعال شد!"
+settings_notifications_disabled: "&cاعلان‌ها غیرفعال شد!"
+
+# Error messages
+auction_item_required: "&cبرای ایجاد حراج باید یک مورد در دست داشته باشید!"
+auction_invalid_bid: "&cمقدار پیشنهاد نامعتبر است!"
+auction_not_found: "&cحراج یافت نشد!"
+auction_cannot_bid_own: "&cشما نمی‌توانید روی حراج خود پیشنهاد دهید!"
+auction_expired_error: "&cاین حراج منقضی شده است!"
+auction_insufficient_bid: "&cپیشنهاد شما باید بیشتر از پیشنهاد فعلی باشد!"
+
+# Interest messages
+interest_earned: "&aشما &e{amount} &aبه عنوان سود از بانک دریافت کردید!"

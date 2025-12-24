@@ -1,0 +1,88 @@
+# SMP-Economy Spanish Language File
+# Translation for Spanish (Spain)
+
+# General messages
+prefix: "&e[&aSMP-Economy&e] "
+no_permission: "&c¡No tienes permiso para usar este comando!"
+player_not_found: "&c¡Jugador no encontrado!"
+invalid_amount: "&c¡Cantidad inválida especificada!"
+success: "&a¡Éxito!"
+error: "&c¡Error!"
+
+# Balance messages
+balance_title: "&e&m-----&6 BALANCE &e&m-----"
+balance_display: "&eTu balance: &a{balance}"
+balance_other_display: "&eBalance de {player}: &a{balance}"
+balance_top_title: "&e&m-----&6 MEJORES BALANCES &e&m-----"
+balance_top_entry: "&e#{rank} &a{player}: &e{balance}"
+
+# Bank messages
+bank_title: "&e&m-----&6 BANCO &e&m-----"
+bank_balance_display: "&eBalance del banco: &a{balance}"
+bank_deposit_success: "&a¡Depositaste exitosamente &e{amount} &aal banco!"
+bank_withdraw_success: "&a¡Retiraste exitosamente &e{amount} &adel banco!"
+bank_insufficient_funds: "&c¡Fondos insuficientes en tu banco!"
+bank_insufficient_money: "&c¡No tienes suficiente dinero para depositar!"
+
+# Auction messages
+auction_title: "&e&m-----&6 CASA DE SUBASTAS &e&m-----"
+auction_create_success: "&a¡Subasta creada exitosamente para &e{item} &acon oferta inicial &e{bid}!"
+auction_buy_success: "&a¡Compraste exitosamente &e{item} &apor &e{price}!"
+auction_bid_success: "&a¡Oferta de &e{bid} &aen la subasta realizada exitosamente!"
+auction_expired: "&c¡Tu subasta para &e{item} &cha expirado!"
+auction_sold: "&a¡Tu subasta para &e{item} &aha sido vendida por &e{price}!"
+
+# Transfer messages
+transfer_success: "&a¡Enviaste exitosamente &e{amount} &aa &e{player}!"
+transfer_received: "&a¡Recibiste &e{amount} &ade &e{player}!"
+transfer_insufficient_funds: "&c¡No tienes suficiente dinero para enviar!"
+
+# Admin messages
+admin_give_success: "&a¡Diste exitosamente &e{amount} &aa &e{player}!"
+admin_set_success: "&a¡Balance de &e{player} &aestablecido en &e{amount}!"
+admin_reset_success: "&a¡Balance de &e{player} &areseteado!"
+
+# Command usage
+command_usage_balance: "&cUso: /balance [player]"
+command_usage_pay: "&cUso: /pay <player> <amount>"
+command_usage_bank: "&cUso: /bank <deposit/withdraw> <amount>"
+command_usage_auction: "&cUso: /auction <create/buy/bid> [args]"
+
+# GUI titles
+gui_main_title: "Menú de Economía"
+gui_bank_title: "Menú del Banco"
+gui_auction_title: "Casa de Subastas"
+gui_auction_create_title: "Crear Subasta"
+gui_my_auctions_title: "Mis Subastas"
+gui_bid_history_title: "Historial de Ofertas"
+gui_transaction_history_title: "Historial de Transacciones"
+gui_settings_title: "Configuración"
+
+# GUI items
+gui_item_balance: "&eTu Balance: &a{balance}"
+gui_item_bank_balance: "&eBalance del Banco: &a{balance}"
+gui_item_deposit: "&aDepositar Dinero"
+gui_item_withdraw: "&cRetirar Dinero"
+gui_item_auction_house: "&6Casa de Subastas"
+gui_item_create_auction: "&6Crear Subasta"
+gui_item_my_auctions: "&eMis Subastas"
+gui_item_transaction_history: "&bHistorial de Transacciones"
+gui_item_settings: "&7Configuración"
+gui_item_back: "&cAtrás"
+gui_item_close: "&cCerrar"
+
+# Settings messages
+settings_language_changed: "&a¡Idioma cambiado a español!"
+settings_notifications_enabled: "&a¡Notificaciones habilitadas!"
+settings_notifications_disabled: "&c¡Notificaciones deshabilitadas!"
+
+# Error messages
+auction_item_required: "&c¡Debes sostener un objeto para crear una subasta!"
+auction_invalid_bid: "&c¡Cantidad de oferta inválida!"
+auction_not_found: "&c¡Subasta no encontrada!"
+auction_cannot_bid_own: "&c¡No puedes pujar en tu propia subasta!"
+auction_expired_error: "&c¡Esta subasta ha expirado!"
+auction_insufficient_bid: "&c¡Tu oferta debe ser más alta que la oferta actual!"
+
+# Interest messages
+interest_earned: "&a¡Ganaste &e{amount} &aen intereses de tu banco!"

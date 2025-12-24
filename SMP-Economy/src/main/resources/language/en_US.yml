@@ -1,0 +1,88 @@
+# SMP-Economy English Language File
+# Translation for English (United States)
+
+# General messages
+prefix: "&e[&aSMP-Economy&e] "
+no_permission: "&cYou don't have permission to use this command!"
+player_not_found: "&cPlayer not found!"
+invalid_amount: "&cInvalid amount specified!"
+success: "&aSuccess!"
+error: "&cError!"
+
+# Balance messages
+balance_title: "&e&m-----&6 BALANCE &e&m-----"
+balance_display: "&eYour balance: &a{balance}"
+balance_other_display: "&e{player}'s balance: &a{balance}"
+balance_top_title: "&e&m-----&6 TOP BALANCES &e&m-----"
+balance_top_entry: "&e#{rank} &a{player}: &e{balance}"
+
+# Bank messages
+bank_title: "&e&m-----&6 BANK &e&m-----"
+bank_balance_display: "&eBank balance: &a{balance}"
+bank_deposit_success: "&aSuccessfully deposited &e{amount} &ato your bank!"
+bank_withdraw_success: "&aSuccessfully withdrew &e{amount} &afrom your bank!"
+bank_insufficient_funds: "&cInsufficient funds in your bank!"
+bank_insufficient_money: "&cYou don't have enough money to deposit!"
+
+# Auction messages
+auction_title: "&e&m-----&6 AUCTION HOUSE &e&m-----"
+auction_create_success: "&aSuccessfully created auction for &e{item} &awith starting bid &e{bid}!"
+auction_buy_success: "&aSuccessfully bought &e{item} &afor &e{price}!"
+auction_bid_success: "&aSuccessfully bid &e{bid} &aon the auction!"
+auction_expired: "&cYour auction for &e{item} &chas expired!"
+auction_sold: "&aYour auction for &e{item} &chas been sold for &e{price}!"
+
+# Transfer messages
+transfer_success: "&aSuccessfully sent &e{amount} &ato &e{player}!"
+transfer_received: "&aReceived &e{amount} &afrom &e{player}!"
+transfer_insufficient_funds: "&cYou don't have enough money to send!"
+
+# Admin messages
+admin_give_success: "&aSuccessfully gave &e{amount} &ato &e{player}!"
+admin_set_success: "&aSuccessfully set &e{player}&a's balance to &e{amount}!"
+admin_reset_success: "&aSuccessfully reset &e{player}&a's balance!"
+
+# Command usage
+command_usage_balance: "&cUsage: /balance [player]"
+command_usage_pay: "&cUsage: /pay <player> <amount>"
+command_usage_bank: "&cUsage: /bank <deposit/withdraw> <amount>"
+command_usage_auction: "&cUsage: /auction <create/buy/bid> [args]"
+
+# GUI titles
+gui_main_title: "Economy Menu"
+gui_bank_title: "Bank Menu"
+gui_auction_title: "Auction House"
+gui_auction_create_title: "Create Auction"
+gui_my_auctions_title: "My Auctions"
+gui_bid_history_title: "Bid History"
+gui_transaction_history_title: "Transaction History"
+gui_settings_title: "Settings"
+
+# GUI items
+gui_item_balance: "&eYour Balance: &a{balance}"
+gui_item_bank_balance: "&eBank Balance: &a{balance}"
+gui_item_deposit: "&aDeposit Money"
+gui_item_withdraw: "&cWithdraw Money"
+gui_item_auction_house: "&6Auction House"
+gui_item_create_auction: "&6Create Auction"
+gui_item_my_auctions: "&eMy Auctions"
+gui_item_transaction_history: "&bTransaction History"
+gui_item_settings: "&7Settings"
+gui_item_back: "&cBack"
+gui_item_close: "&cClose"
+
+# Settings messages
+settings_language_changed: "&aLanguage changed to English!"
+settings_notifications_enabled: "&aNotifications enabled!"
+settings_notifications_disabled: "&cNotifications disabled!"
+
+# Error messages
+auction_item_required: "&cYou must hold an item to create an auction!"
+auction_invalid_bid: "&cInvalid bid amount!"
+auction_not_found: "&cAuction not found!"
+auction_cannot_bid_own: "&cYou cannot bid on your own auction!"
+auction_expired_error: "&cThis auction has expired!"
+auction_insufficient_bid: "&cYour bid must be higher than the current bid!"
+
+# Interest messages
+interest_earned: "&aYou earned &e{amount} &ain interest from your bank!"

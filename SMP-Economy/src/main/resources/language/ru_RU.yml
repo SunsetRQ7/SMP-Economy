@@ -1,0 +1,88 @@
+# SMP-Economy Russian Language File
+# Translation for Russian (Russia)
+
+# General messages
+prefix: "&e[&aSMP-Economy&e] "
+no_permission: "&cУ вас нет разрешения на использование этой команды!"
+player_not_found: "&cИгрок не найден!"
+invalid_amount: "&cУказана недопустимая сумма!"
+success: "&aУспешно!"
+error: "&cОшибка!"
+
+# Balance messages
+balance_title: "&e&m-----&6 БАЛАНС &e&m-----"
+balance_display: "&eВаш баланс: &a{balance}"
+balance_other_display: "&eБаланс {player}: &a{balance}"
+balance_top_title: "&e&m-----&6 ЛУЧШИЕ БАЛАНСЫ &e&m-----"
+balance_top_entry: "&e#{rank} &a{player}: &e{balance}"
+
+# Bank messages
+bank_title: "&e&m-----&6 БАНК &e&m-----"
+bank_balance_display: "&eБаланс банка: &a{balance}"
+bank_deposit_success: "&aУспешно внесено &e{amount} &aв ваш банк!"
+bank_withdraw_success: "&aУспешно снято &e{amount} &aиз вашего банка!"
+bank_insufficient_funds: "&cНедостаточно средств в вашем банке!"
+bank_insufficient_money: "&cУ вас недостаточно денег для внесения!"
+
+# Auction messages
+auction_title: "&e&m-----&6 АУКЦИОН &e&m-----"
+auction_create_success: "&aУспешно создан аукцион для &e{item} &cс начальной ставкой &e{bid}!"
+auction_buy_success: "&aУспешно куплен &e{item} &aза &e{price}!"
+auction_bid_success: "&aУспешно сделана ставка &e{bid} &aна аукцион!"
+auction_expired: "&cВаш аукцион для &e{item} &cистек!"
+auction_sold: "&aВаш аукцион для &e{item} &aбыл продан за &e{price}!"
+
+# Transfer messages
+transfer_success: "&aУспешно отправлено &e{amount} &aигроку &e{player}!"
+transfer_received: "&aПолучено &e{amount} &aот &e{player}!"
+transfer_insufficient_funds: "&cУ вас недостаточно денег для отправки!"
+
+# Admin messages
+admin_give_success: "&aУспешно выдано &e{amount} &aигроку &e{player}!"
+admin_set_success: "&aБаланс &e{player} &aустановлен на &e{amount}!"
+admin_reset_success: "&aБаланс &e{player} &aсброшен!"
+
+# Command usage
+command_usage_balance: "&cИспользование: /balance [player]"
+command_usage_pay: "&cИспользование: /pay <player> <amount>"
+command_usage_bank: "&cИспользование: /bank <deposit/withdraw> <amount>"
+command_usage_auction: "&cИспользование: /auction <create/buy/bid> [args]"
+
+# GUI titles
+gui_main_title: "Меню экономики"
+gui_bank_title: "Меню банка"
+gui_auction_title: "Аукцион"
+gui_auction_create_title: "Создать аукцион"
+gui_my_auctions_title: "Мои аукционы"
+gui_bid_history_title: "История ставок"
+gui_transaction_history_title: "История транзакций"
+gui_settings_title: "Настройки"
+
+# GUI items
+gui_item_balance: "&eВаш баланс: &a{balance}"
+gui_item_bank_balance: "&eБаланс банка: &a{balance}"
+gui_item_deposit: "&aВнести деньги"
+gui_item_withdraw: "&cСнять деньги"
+gui_item_auction_house: "&6Аукцион"
+gui_item_create_auction: "&6Создать аукцион"
+gui_item_my_auctions: "&eМои аукционы"
+gui_item_transaction_history: "&bИстория транзакций"
+gui_item_settings: "&7Настройки"
+gui_item_back: "&cНазад"
+gui_item_close: "&cЗакрыть"
+
+# Settings messages
+settings_language_changed: "&aЯзык изменен на русский!"
+settings_notifications_enabled: "&aУведомления включены!"
+settings_notifications_disabled: "&cУведомления отключены!"
+
+# Error messages
+auction_item_required: "&cВы должны держать предмет для создания аукциона!"
+auction_invalid_bid: "&cНедопустимая сумма ставки!"
+auction_not_found: "&cАукцион не найден!"
+auction_cannot_bid_own: "&cВы не можете делать ставки на свой собственный аукцион!"
+auction_expired_error: "&cЭтот аукцион истек!"
+auction_insufficient_bid: "&cВаша ставка должна быть выше текущей ставки!"
+
+# Interest messages
+interest_earned: "&aВы заработали &e{amount} &aв виде процентов от банка!"

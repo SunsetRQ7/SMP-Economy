@@ -1,0 +1,126 @@
+# SMP-Economy Main Configuration
+# This is the main configuration file for SMP-Economy plugin
+
+# Default language for the plugin
+default_language: "en_US"
+
+# Economy settings
+economy:
+  # Starting balance for new players
+  starting_balance: 100.0
+  
+  # Maximum balance a player can have (set to -1 for no limit)
+  max_balance: -1
+  
+  # Minimum balance a player can have (set to 0 for no debt allowed)
+  min_balance: 0.0
+  
+  # Enable/Disable economy system
+  enabled: true
+
+# Database settings
+database:
+  # Database type: sqlite or mysql
+  type: "sqlite"
+  
+  # SQLite settings
+  sqlite:
+    # Database file name
+    file: "database.db"
+  
+  # MySQL settings
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "minecraft"
+    username: "root"
+    password: "password"
+    # Additional MySQL options
+    options:
+      useSSL: false
+      verifyServerCertificate: false
+      allowPublicKeyRetrieval: true
+
+# Banking system settings
+bank:
+  # Enable/Disable banking system
+  enabled: true
+  
+  # Default interest rate (percentage per day)
+  interest_rate: 0.5
+  
+  # How often interest is calculated (in minutes)
+  interest_interval: 1440  # 24 hours
+  
+  # Minimum amount required to earn interest
+  minimum_balance_for_interest: 100.0
+  
+  # Maximum interest that can be earned per calculation (set to -1 for no limit)
+  max_interest_per_calculation: -1
+
+# Auction house settings
+auction:
+  # Enable/Disable auction house
+  enabled: true
+  
+  # Minimum starting bid
+  min_starting_bid: 1.0
+  
+  # Maximum starting bid (set to -1 for no limit)
+  max_starting_bid: -1
+  
+  # Default auction duration in seconds (default: 24 hours)
+  default_duration: 86400
+  
+  # Minimum auction duration in seconds
+  min_duration: 3600  # 1 hour
+  
+  # Maximum auction duration in seconds
+  max_duration: 604800  # 7 days
+  
+  # Auction creation fee (set to 0 to disable)
+  creation_fee: 10.0
+  
+  # Percentage of final bid given to the server when auction sells
+  auction_fee_percent: 5.0
+
+# Security settings
+security:
+  # Cooldown between economy transactions (in seconds)
+  transaction_cooldown: 2
+  
+  # Maximum amount that can be sent per transaction (set to -1 for no limit)
+  max_transfer_amount: -1
+  
+  # Enable transaction logging
+  log_transactions: true
+  
+  # Rate limit for commands (max commands per minute per player)
+  command_rate_limit: 60
+
+# Performance settings
+performance:
+  # Cache timeout for player data (in minutes)
+  cache_timeout: 10
+  
+  # How often to save player data to database (in minutes)
+  save_interval: 5
+  
+  # Enable/Disable database connection pooling
+  enable_connection_pooling: true
+
+# Update settings
+update:
+  # Check for updates on startup
+  check_for_updates: true
+  
+  # Automatically download updates (requires additional plugin)
+  auto_download: false
+
+# Debug settings
+debug:
+  # Enable debug mode (more verbose logging)
+  enabled: false
+  
+  # Log all database queries
+  log_queries: false

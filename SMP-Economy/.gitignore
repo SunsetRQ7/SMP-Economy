@@ -1,0 +1,63 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*~
+.project
+.classpath
+.settings/
+
+# Java
+*.class
+*.jar
+*.war
+*.nar
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# Minecraft/Spigot
+/logs/
+/plugins/
+/world/
+/world_nether/
+/world_the_end/
+/cache/
+/region/
+/stats/
+/playerdata/
+/session.lock
+/advancements/
+/eula.txt
+/banned-ips.json
+/banned-players.json
+/ops.json
+/server.properties
+/usercache.json
+/whitelist.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.bak
+*.log
+
+# IDE specific
+.vscode/
+*.code-workspace
+
+# Minecraft development
+.run/
+server.jar
+spigot.jar
+paper.jar
