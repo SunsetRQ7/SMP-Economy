@@ -1,0 +1,88 @@
+# SMP-Economy Turkish Language File
+# Translation for Turkish (Turkey)
+
+# General messages
+prefix: "&e[&aSMP-Economy&e] "
+no_permission: "&cBu komutu kullanma izniniz yok!"
+player_not_found: "&cOyuncu bulunamadı!"
+invalid_amount: "&cGeçersiz miktar belirtildi!"
+success: "&aBaşarılı!"
+error: "&cHata!"
+
+# Balance messages
+balance_title: "&e&m-----&6 BAKİYE &e&m-----"
+balance_display: "&eBakiyeniz: &a{balance}"
+balance_other_display: "&e{player}'in bakiyesi: &a{balance}"
+balance_top_title: "&e&m-----&6 EN YÜKSEK BAKİYELER &e&m-----"
+balance_top_entry: "&e#{rank} &a{player}: &e{balance}"
+
+# Bank messages
+bank_title: "&e&m-----&6 BANKA &e&m-----"
+bank_balance_display: "&eBanka bakiyesi: &a{balance}"
+bank_deposit_success: "&e{amount} &atutarı bankanıza başarıyla yatırıldı!"
+bank_withdraw_success: "&e{amount} &atutarı bankanızdan başarıyla çekildi!"
+bank_insufficient_funds: "&cBankanızda yeterli bakiye yok!"
+bank_insufficient_money: "&cYatırmak için yeterli paranız yok!"
+
+# Auction messages
+auction_title: "&e&m-----&6 AÇIK ARTIRMA &e&m-----"
+auction_create_success: "&e{item} &aiçin başlangıç teklifi &e{bid} &aolan açık artırma başarıyla oluşturuldu!"
+auction_buy_success: "&e{item} &aeşyası &e{price} &atutarına başarıyla satın alındı!"
+auction_bid_success: "&e{bid} &ateklifi açık artırmaya başarıyla verildi!"
+auction_expired: "&e{item} &aiçin açtığınız açık artırma süresi doldu!"
+auction_sold: "&e{item} &aiçin açtığınız açık artırma &e{price} &atutarına satıldı!"
+
+# Transfer messages
+transfer_success: "&e{amount} &atutarı &e{player}'a başarıyla gönderildi!"
+transfer_received: "&e{player} &akullanıcısından &e{amount} &atutarı aldınız!"
+transfer_insufficient_funds: "&cGöndermek için yeterli paranız yok!"
+
+# Admin messages
+admin_give_success: "&e{player}'a &e{amount} &atutarı başarıyla verildi!"
+admin_set_success: "&e{player}&a'nın bakiyesi &e{amount} &aolarak ayarlandı!"
+admin_reset_success: "&e{player}&a'nın bakiyesi sıfırlandı!"
+
+# Command usage
+command_usage_balance: "&cKullanım: /balance [player]"
+command_usage_pay: "&cKullanım: /pay <player> <amount>"
+command_usage_bank: "&cKullanım: /bank <deposit/withdraw> <amount>"
+command_usage_auction: "&cKullanım: /auction <create/buy/bid> [args]"
+
+# GUI titles
+gui_main_title: "Ekonomi Menüsü"
+gui_bank_title: "Banka Menüsü"
+gui_auction_title: "Açık Artırma"
+gui_auction_create_title: "Açık Artırma Oluştur"
+gui_my_auctions_title: "Açık Artırmalarım"
+gui_bid_history_title: "Teklif Geçmişi"
+gui_transaction_history_title: "İşlem Geçmişi"
+gui_settings_title: "Ayarlar"
+
+# GUI items
+gui_item_balance: "&eBakiyeniz: &a{balance}"
+gui_item_bank_balance: "&eBanka Bakiyesi: &a{balance}"
+gui_item_deposit: "&aPara Yatır"
+gui_item_withdraw: "&cPara Çek"
+gui_item_auction_house: "&6Açık Artırma"
+gui_item_create_auction: "&6Açık Artırma Oluştur"
+gui_item_my_auctions: "&eAçık Artırmalarım"
+gui_item_transaction_history: "&bİşlem Geçmişi"
+gui_item_settings: "&7Ayarlar"
+gui_item_back: "&cGeri"
+gui_item_close: "&cKapat"
+
+# Settings messages
+settings_language_changed: "&aDil Türkçe olarak değiştirildi!"
+settings_notifications_enabled: "&aBildirimler etkinleştirildi!"
+settings_notifications_disabled: "&cBildirimler devre dışı bırakıldı!"
+
+# Error messages
+auction_item_required: "&cAçık artırma oluşturmak için elinizde bir eşya olmalı!"
+auction_invalid_bid: "&cGeçersiz teklif miktarı!"
+auction_not_found: "&cAçık artırma bulunamadı!"
+auction_cannot_bid_own: "&cKendi açık artırmaya teklif veremezsiniz!"
+auction_expired_error: "&cBu açık artırma süresi dolmuş!"
+auction_insufficient_bid: "&cTeklifiniz mevcut tekliften yüksek olmalı!"
+
+# Interest messages
+interest_earned: "&aBankanızdan &e{amount} &atutarında faiz kazandınız!"
